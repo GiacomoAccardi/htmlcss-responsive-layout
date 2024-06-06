@@ -72,3 +72,31 @@ STYLING CLASSES
 RESPONSIVENESS
 ******************************************************/
 
+/*
+TABLET RESPONSIVNESS CONFIG (768PX)
+*/
+
+@media screen and (min-width: 768px) {
+    
+    .container{
+        width: 100%;
+    }
+
+    /*FUNCTION SECTION*/
+
+    .function .col{
+        width: calc(100% / 3);
+    }
+
+    .function .col-double{
+        width: calc(100% / 3 * 2)
+    }
+
+    /*FUNCTION SECTION*/
+
+    .benefits .col{
+        width: 50%;
+    }
+
+
+}
