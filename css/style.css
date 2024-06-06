@@ -24,10 +24,16 @@ lAYOUT CLASSES
 .row{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .col{
     width: 100%;
+    margin: 20px 0;
+}
+
+.navbar .col{
+    width: 50%;
 }
 
 /******************************************************
@@ -40,8 +46,14 @@ UTILITY CLASSES
 STYLING CLASSES
 ******************************************************/
 
+.col{
+    border: 2px dashed black;
+    background-color: pink;
+    height: 100px;
+}
 
 
 /******************************************************
 RESPONSIVENESS
 ******************************************************/
+
