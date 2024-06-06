@@ -103,7 +103,7 @@ TABLET RESPONSIVNESS CONFIG (768PX)
 DESKTOP RESPONSIVNESS CONFIG (1140PX)
 <--------------------*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1140px) {
 
     .container{
         max-width: 75%;
