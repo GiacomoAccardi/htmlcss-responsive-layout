@@ -56,6 +56,9 @@ UTILITY CLASSES
     margin-bottom: 20px;
 }
 
+.no-row-padding-top{
+    padding: 0 0 10px 0;
+}
 
 /******************************************************
 STYLING CLASSES
