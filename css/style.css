@@ -29,8 +29,16 @@ lAYOUT CLASSES
 
 .col{
     width: 100%;
+}
+
+.content{
     margin: 20px 0;
 }
+
+
+/*
+NAVBAR SECTION
+*/
 
 .navbar .col{
     width: 50%;
@@ -40,6 +48,13 @@ lAYOUT CLASSES
 UTILITY CLASSES
 ******************************************************/
 
+.m-updown-20{
+    margin: 20px 0;
+}
+
+.m-b-20{
+    margin-bottom: 20px;
+}
 
 
 /******************************************************
