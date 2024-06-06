@@ -12,6 +12,9 @@ body{
     font-family: Arial, sans-serif;
 }
 
+ul{
+    list-style: none;
+}
 
 /******************************************************
 lAYOUT CLASSES
@@ -29,6 +32,7 @@ lAYOUT CLASSES
 
 .col{
     width: 100%;
+    padding: 20px;
 }
 
 .content{
@@ -36,13 +40,50 @@ lAYOUT CLASSES
 }
 
 
-/*
-NAVBAR SECTION
-*/
+    /*
+    NAVBAR SECTION
+    */
 
 .navbar .col{
-    width: 50%;
+    width: 40%;
+    padding: 20px 30px;
 }
+
+.navbar .col-60{
+    width: 60%;
+    padding: 20px 30px;
+}
+
+.navbar .content{
+    margin: 0;
+}
+
+.navbar .row{
+    padding: 0;
+}
+
+.navbar i{
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.nav-menu-config-dskt{
+    display: none;
+    margin-top: 5px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    align-items: center;
+}
+
+li{
+    margin-right: 15px;
+}
+
+
 
 /******************************************************
 UTILITY CLASSES
@@ -56,8 +97,17 @@ UTILITY CLASSES
     margin-bottom: 20px;
 }
 
-.no-row-padding-top{
-    padding: 0 0 10px 0;
+d.flex{
+    display: flex;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+
+.no-margin{
+    margin:0;
 }
 
 /******************************************************
@@ -66,8 +116,37 @@ STYLING CLASSES
 
 .col{
     border: 2px dashed black;
-    background-color: pink;
-    height: 100px;
+}
+
+.col-60{
+    border: 2px dashed black;
+}
+
+    /*
+    GENERAL STYLES 
+    */
+
+.btn-config{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+    /*
+    NAVBAR SECTION
+    */
+
+.navbar{
+    background-color: #1d92f2;
+}
+
+.navbar i{
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
 }
 
 
@@ -85,7 +164,9 @@ TABLET RESPONSIVNESS CONFIG (768PX)
         width: 100%;
     }
 
-    /*FUNCTION SECTION*/
+    /*
+    FUNCTION SECTION
+    */
 
     .function .col{
         width: calc(100% / 3);
@@ -95,7 +176,9 @@ TABLET RESPONSIVNESS CONFIG (768PX)
         width: calc(100% / 3 * 2)
     }
 
-    /*FUNCTION SECTION*/
+    /*
+    BENEFITS SECTION
+    */
 
     .benefits .col{
         width: 50%;
@@ -113,14 +196,32 @@ DESKTOP RESPONSIVNESS CONFIG (1140PX)
         margin: 0 auto;
     }
 
-    /*PLANNING SECTION*/
+    /*
+    NAVBAR SECTION
+    */
+
+    .nav-menu-config-mbl{
+        display: none;
+    }
+
+    .nav-menu-config-dskt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    
+    /*
+    PLANNING SECTION
+    */
 
     .planning .container{
         max-width: 60%;
         margin: 0 auto;
     }
 
-    /*ABOUT US SECTION*/
+    /*
+    ABOUT US SECTION
+    */
 
     .about-us .container{
         max-width: 70%;
