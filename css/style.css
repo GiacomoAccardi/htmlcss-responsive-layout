@@ -72,9 +72,9 @@ STYLING CLASSES
 RESPONSIVENESS
 ******************************************************/
 
-/*
+/*--------------------->
 TABLET RESPONSIVNESS CONFIG (768PX)
-*/
+<--------------------*/
 
 @media screen and (min-width: 768px) {
     
@@ -97,6 +97,30 @@ TABLET RESPONSIVNESS CONFIG (768PX)
     .benefits .col{
         width: 50%;
     }
+}
 
+/*--------------------->
+DESKTOP RESPONSIVNESS CONFIG (1140PX)
+<--------------------*/
 
+@media screen and (min-width: 768px) {
+
+    .container{
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+    /*PLANNING SECTION*/
+
+    .planning .container{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    /*ABOUT US SECTION*/
+
+    .about-us .container{
+        max-width: 70%;
+        margin: 0 auto;
+    }
 }
