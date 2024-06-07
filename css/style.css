@@ -152,6 +152,14 @@ li{
     text-align: center;
 }
 
+    /*
+    BENEFITS SECTION
+    */
+
+.benefits .card{
+    text-align: left;
+}
+
 
 
 
@@ -161,6 +169,10 @@ UTILITY CLASSES
 
 .m-updown-20{
     margin: 20px 0;
+}
+
+.m-updown-50{
+    margin: 50px 0;
 }
 
 .m-b-20{
@@ -188,6 +200,10 @@ d.flex{
 .flex-center{
     justify-content: center;
 }
+
+
+
+
 
 /******************************************************
 STYLING CLASSES
@@ -355,6 +371,40 @@ blockquote:after{
     color: white;
 }
 
+    /*
+    BENEFITS SECTION
+    */
+
+.benefits{
+    background-color: #9593E6;
+}
+
+.benefits h1{
+    color: white;
+}
+
+.benefits .card{
+    background-color:white;
+}
+
+.benefits .card h1{
+    color:#9593E6;
+    margin-bottom: 20px;
+}
+
+.benefits .card h2{
+    color:#9593E6;
+}
+
+.benefits .card p{
+    color:#363568;
+}
+
+.benefits .btn-config{
+    background-color: #9593E6;
+    padding: 10px 40px
+}
+
 
 /******************************************************
 RESPONSIVENESS
@@ -513,6 +563,14 @@ DESKTOP RESPONSIVNESS CONFIG (1140PX)
         line-height: 1;
         top: 40px;
         left: 280px;
+    }
+
+    /*
+    BENEFITS SECTION
+    */
+    
+    .benefits .col{
+        width: calc(100% / 3);
     }
 
     /*
