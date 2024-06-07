@@ -32,7 +32,7 @@ lAYOUT CLASSES
 
 .col{
     width: 100%;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .content{
@@ -519,6 +519,10 @@ TABLET RESPONSIVNESS CONFIG (768PX)
     
     .container{
         width: 100%;
+    }
+
+    .col{
+        padding: 20px;
     }
 
     /*
