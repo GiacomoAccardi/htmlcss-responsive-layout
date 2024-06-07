@@ -1,6 +1,6 @@
-/******************************************************
+/****************************************************************************************************************
 GENERAL RULES
-******************************************************/
+***************************************************************************************************************/
 
 *{
     margin: 0;
@@ -16,9 +16,9 @@ ul{
     list-style: none;
 }
 
-/******************************************************
+/****************************************************************************************************************
 lAYOUT CLASSES
-******************************************************/
+****************************************************************************************************************/
 
 .container{
     width: 100%;
@@ -204,9 +204,9 @@ footer a{
     color: #9593E6;
 }
 
-/******************************************************
+/****************************************************************************************************************
 UTILITY CLASSES
-******************************************************/
+****************************************************************************************************************/
 
 .m-updown-20{
     margin: 20px 0;
@@ -244,11 +244,9 @@ d.flex{
 
 
 
-
-
-/******************************************************
+/****************************************************************************************************************
 STYLING CLASSES
-******************************************************/
+****************************************************************************************************************/
 
     /*
     GENERAL STYLES 
@@ -270,7 +268,7 @@ p{
 
 
     /*
-    NAVBAR SECTION
+    NAVBAR SECTION STYLING
     */
 
 .navbar{
@@ -287,7 +285,7 @@ p{
 }
 
     /*
-    FUNCTION SECTION
+    FUNCTION SECTION STYLING
     */
 
 .card{
@@ -321,7 +319,7 @@ p{
 }
 
     /*
-    PLANNING SECTION
+    PLANNING SECTION STYLING
     */
 
 .planning{
@@ -349,7 +347,7 @@ p{
 }
 
     /*
-    TESTIMONIALS SECTION
+    TESTIMONIALS SECTION STYLING
     */
 
 .testimonials h1{
@@ -386,7 +384,7 @@ blockquote:before {
     font-size: 6em;
     line-height: 1;
     top: 325px;
-    left: 15px;
+    left: 35px;
     content: "\201C";
 }
 
@@ -395,7 +393,7 @@ blockquote:after{
     float:right;
     font-size:6em;
     line-height: 1;
-    right:40px;
+    right:55px;
     bottom:40px;
     content: "\201D";
 }
@@ -405,7 +403,7 @@ blockquote:after{
 }
 
     /*
-    BENEFITS SECTION
+    BENEFITS SECTION STYLING
     */
 
 .benefits{
@@ -439,7 +437,7 @@ blockquote:after{
 }
 
     /*
-    ABOUT US SECTION
+    ABOUT US SECTION STYLING
     */
 
 .about-us h1{
@@ -475,7 +473,7 @@ blockquote:after{
 }
 
     /*
-    GET STARTED SECTION
+    GET STARTED SECTION STYLING
     */
 
     .get-started{
@@ -498,7 +496,7 @@ blockquote:after{
     }
 
     /*
-    FOOTER SECTION
+    FOOTER SECTION STYLING
     */
 
     footer{
@@ -507,13 +505,13 @@ blockquote:after{
     }
 
 
-/******************************************************
+/****************************************************************************************************************
 RESPONSIVENESS
-******************************************************/
+****************************************************************************************************************/
 
-/*--------------------->
+/*------------------------------------------------->
 TABLET RESPONSIVNESS CONFIG (768PX)
-<--------------------*/
+<----------------------------------*/
 
 @media screen and (min-width: 768px) {
     
@@ -572,25 +570,25 @@ TABLET RESPONSIVNESS CONFIG (768PX)
         height:160px
     }
 
-    blockquote{
+    .testimonials blockquote{
         margin-top: 40px;
         margin-bottom: 35px;
         font-size: 12pt;
         text-align: center;
     }
     
-    blockquote:before {
+    .testimonials blockquote:before {
         font-size: 4em;
         line-height: 1;
         top: 50px;
-        left: 170px;
+        left: 265px;
     }
     
-    blockquote:after{
+    .testimonials blockquote:after{
         float:right;
         font-size:4em;
         line-height: 1;
-        right:50px;
+        right:145px;
         bottom:70px;
     }
 
@@ -609,9 +607,9 @@ TABLET RESPONSIVNESS CONFIG (768PX)
 
 }
 
-/*--------------------->
+/*--------------------------------------------------------------->
 DESKTOP RESPONSIVNESS CONFIG (1140PX)
-<--------------------*/
+<------------------------------------*/
 
 @media screen and (min-width: 1140px) {
 
@@ -676,11 +674,19 @@ DESKTOP RESPONSIVNESS CONFIG (1140PX)
     TESTIMONIALS SECTION!
     */
 
-    blockquote:before {
+
+    .testimonials blockquote:before {
         font-size: 4em;
         line-height: 1;
-        top: 40px;
-        left: 280px;
+        top: 45px;
+        left: 330px;
+    }
+    
+    .testimonials blockquote:after{
+        font-size:4em;
+        line-height: 1;
+        right:190px;
+        bottom:75px;
     }
 
     /*
