@@ -160,7 +160,13 @@ li{
     text-align: left;
 }
 
+    /*
+    ABOUT US SECTION
+    */
 
+.about-us .cell-img{
+    position: relative;
+}
 
 
 /******************************************************
@@ -339,7 +345,7 @@ p{
     object-fit: cover;
 }
 
-blockquote{
+.testimonials blockquote{
     line-height: 35px;
     font-style: italic;
     margin-top: 30px;
@@ -404,6 +410,43 @@ blockquote:after{
     background-color: #9593E6;
     padding: 10px 40px
 }
+
+    /*
+    ABOUT US SECTION
+    */
+
+.about-us h1{
+    color: #9593E6;
+    margin-bottom: 30px;
+}
+
+.about-us .btn-config{
+    background-color: #9593E6;
+    padding: 10px 40px;
+    color:white
+}
+
+.about-us img{
+    border-radius: 100%;
+    height: 255px;
+    width: 270px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.about-us blockquote:before {
+    position: absolute;
+    font-size: 16em;
+    top: -30px;
+    left: 160px;
+    content: "\201C";
+    color: #9593E6;
+}
+
+.about-us blockquote:after {
+    content: "";
+}
+
 
 
 /******************************************************
@@ -487,6 +530,14 @@ TABLET RESPONSIVNESS CONFIG (768PX)
         line-height: 1;
         right:50px;
         bottom:70px;
+    }
+
+    /*
+    ABOUT US SECTION
+    */
+
+    .about-us .col{
+        width: 50%;
     }
 
 }
