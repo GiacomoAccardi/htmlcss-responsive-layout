@@ -188,6 +188,21 @@ li{
         margin-bottom: 30px;
     }
 
+    /*
+    FOOTER SECTION
+    */
+
+footer{
+   text-align: center; 
+}
+
+footer p{
+    margin-bottom: 60px;
+}
+
+footer a{
+    color: #9593E6;
+}
 
 /******************************************************
 UTILITY CLASSES
@@ -482,6 +497,14 @@ blockquote:after{
         padding: 15px 50px;
     }
 
+    /*
+    FOOTER SECTION
+    */
+
+    footer{
+        background-color: rgb(36, 36, 36);
+        color: white;
+    }
 
 
 /******************************************************
