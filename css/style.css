@@ -168,6 +168,26 @@ li{
     position: relative;
 }
 
+    /*
+    GET STARTED SECTION
+    */
+
+    .get-started{
+        text-align: center;
+    }
+
+    .get-started p{
+        margin-bottom: 20px;
+    }
+
+    .get-started h1{
+        margin-bottom: 20px;
+    }
+
+    .get-started .btn-config{
+        margin-bottom: 30px;
+    }
+
 
 /******************************************************
 UTILITY CLASSES
@@ -214,14 +234,6 @@ d.flex{
 /******************************************************
 STYLING CLASSES
 ******************************************************/
-
-.col{
-    border: 2px dashed black;
-}
-
-.col-60{
-    border: 2px dashed black;
-}
 
     /*
     GENERAL STYLES 
@@ -447,6 +459,29 @@ blockquote:after{
     content: "";
 }
 
+    /*
+    GET STARTED SECTION
+    */
+
+    .get-started{
+        background-color: #9593E6;
+        color: white;
+    }
+
+    .get-started h1{
+        color: rgb(255, 199, 96);
+        font-size: 50px;
+    }
+
+    .get-started a{
+        color: white;
+    }
+
+    .get-started .btn-config{
+        color: #9593E6;
+        padding: 15px 50px;
+    }
+
 
 
 /******************************************************
@@ -539,6 +574,11 @@ TABLET RESPONSIVNESS CONFIG (768PX)
     .about-us .col{
         width: 50%;
     }
+
+    /*
+    GET STARTED SECTION
+    */
+
 
 }
 
