@@ -109,6 +109,21 @@ li{
     height:100%
 }
 
+    /*
+    PLANNING SECTION
+    */
+
+.planning .content{
+    padding: 25px;
+}
+
+.planning img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
 /******************************************************
 UTILITY CLASSES
 ******************************************************/
@@ -164,6 +179,15 @@ STYLING CLASSES
     border: none;
 }
 
+h2{
+    margin-bottom: 40px;
+}
+
+p{
+    line-height: 35px;
+}
+
+
     /*
     NAVBAR SECTION
     */
@@ -198,7 +222,6 @@ STYLING CLASSES
 .card p{
     color: #3a6e99;
     margin-bottom: 30px;
-    line-height: 35px;
 }
 
 .card .btn-config{
@@ -216,6 +239,31 @@ STYLING CLASSES
     margin-bottom: 30px;
 }
 
+    /*
+    PLANNING SECTION
+    */
+
+.planning{
+    background-color: #9593E6;
+    color: white;
+}
+
+.planning .card{
+    background-color: white;
+    color: black;
+}
+
+.planning .card p{
+    color: black;
+    margin-top: 20px;
+}
+
+.arrowdown-icon-config{
+    background-color: #9593E6;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 15px 20px;
+}
 
 /******************************************************
 RESPONSIVENESS
@@ -311,6 +359,14 @@ DESKTOP RESPONSIVNESS CONFIG (1140PX)
         margin: 0 auto;
     }
 
+    .planning .col{
+        width: 50%;
+    }
+
+    .planning .card{
+        margin-top: 65px;
+    }
+
     /*
     ABOUT US SECTION
     */
@@ -319,4 +375,6 @@ DESKTOP RESPONSIVNESS CONFIG (1140PX)
         max-width: 70%;
         margin: 0 auto;
     }
+
+
 }
